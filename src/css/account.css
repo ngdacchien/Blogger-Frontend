@@ -1,0 +1,99 @@
+.accountInfo {
+  margin: 115px 0;
+}
+
+.accountInfo .container {
+  padding: 50px;
+  width: 55%;
+  margin: auto;
+}
+
+.accountInfo .content {
+  margin-top: 80px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.accountInfo .left {
+  width: 60%;
+  position: relative;
+}
+
+.accountInfo .right {
+  flex: 1;
+  margin-left: 50px;
+  width: 400px;
+}
+
+.accountInfo .left .img input {
+  width: 200%;
+  height: 200px;
+  position: relative;
+  z-index: 2;
+  opacity: 0;
+}
+
+.accountInfo .img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 80%;
+  z-index: 1;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+.accountInfo .right label {
+  font-size: 17px;
+  color: #000;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.accountInfo .right input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.accountInfo h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.accountInfo .right .button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  width: 110%;
+}
+
+.accountInfo .right .button:hover {
+  background-color: #45a049;
+}
+
+.accountInfo .left .img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.accountInfo .left .img label {
+  cursor: pointer;
+}
+
+.accountInfo .left .img h3,
+.accountInfo .left .img p {
+  margin-top: 10px;
+  text-align: left;
+}
